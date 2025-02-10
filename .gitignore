@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Project specific
+logs/
+checkpoints/
+weights/
+evaluation_results/
+*.h5
+*.weights.h5
+*.model
+*.ckpt
+*.pth
+training_log.txt
+
+# Testing
+.pytest_cache/
+__pycache__/
+
+# Environment variables
+.env
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MongoDB
+*.mongodb
+
+# TensorFlow/Keras
+*.pb
+*.index
+*.data-*
+events.out.tfevents.*
+
+# Additional project-specific directories
+/logs/
+/evaluation_results/
+/checkpoints/
+/.pytest_cache/
+/__pycache__/
+/weights/ 
